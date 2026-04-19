@@ -1,0 +1,109 @@
+.spend-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* INPUT BOX */
+.spend-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.spend-box h3 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.spend-box input {
+  flex: 1;
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.spend-box button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #50d91f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* LIST */
+.spend-list {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.spend-item {
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spend-info h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.spend-info p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.spend-info span {
+  font-size: 12px;
+  color: #777;
+}
+
+/* ACTIONS */
+.spend-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  padding: 6px 12px;
+  border: none;
+  background: #ffb347;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  background: #ff5c5c;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-spend {
+  text-align: center;
+  color: #777;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .spend-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
