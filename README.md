@@ -135,7 +135,7 @@ Currently, the app connects to `http://localhost:3000` for the API. You can modi
 
 <img src="./src/assets/screenshot.png">
 
-**Preview link :-** 
+
 
 ## 📝 License
 
