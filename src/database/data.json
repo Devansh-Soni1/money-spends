@@ -1,11 +1,18 @@
 {
   "Spends": [
     {
-      "id": "2669",
-      "amount": "680",
-      "note": "shoes",
-      "date": "1/17/2026",
-      "time": "01:43 PM"
+      "id": "f1f5",
+      "amount": "300",
+      "note": "fuel",
+      "date": "4/20/2026",
+      "time": "12:27 PM"
+    },
+    {
+      "id": "ec45",
+      "amount": "200",
+      "note": "food",
+      "date": "4/20/2026",
+      "time": "12:27 PM"
     }
   ]
 }
